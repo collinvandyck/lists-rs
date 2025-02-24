@@ -1,0 +1,11 @@
+[package]
+name = "lists-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.96"
+itertools = "0.14.0"
+
+[lints.rust]
+unused = "allow"
